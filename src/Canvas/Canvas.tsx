@@ -47,6 +47,7 @@ function Canvas() {
 					setTop(mousePos[1])
 					setVis("visible")
 					setClickedPlayer(player1)
+					STOP = true
 				}
 				else if (distance(mousePos, [player2.x, player2.y]) < playerRadius) {
 					menuPos = mousePos
@@ -54,11 +55,12 @@ function Canvas() {
 					setTop(mousePos[1])
 					setVis("visible")
 					setClickedPlayer(player2)
+					STOP = true
 				}
-				else {
+				else if (vis == 'visible') {
 					setVis("hidden")
+					STOP = true
 				}
-				STOP = true
 			}
 		)
 
