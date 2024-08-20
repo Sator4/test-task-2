@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.32abc98a.css","mappings":"AAAA,QACC,YAED,CAEA,SACC,YAED","sources":["Canvas/styles.css"],"sourcesContent":[".hidden {\r\n\tdisplay: none;\r\n\t/* visibility: 'hidden' */\r\n}\r\n\r\n.visible {\r\n\tdisplay: flex;\r\n\t/* visibility: 'visible' */\r\n}"],"names":[],"sourceRoot":""}
